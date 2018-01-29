@@ -1,0 +1,21 @@
+
+|"squid:ClassVariableVisibilityCheck"PMake from a static final constant or non-public and provide accessors if needed.(ìÁèˆ
+"squid:ClassVariableVisibilityCheck"NMake to a static final constant or non-public and provide accessors if needed.(†ª†øøÿÿÿÿ
+}"squid:ClassVariableVisibilityCheck"QMake value a static final constant or non-public and provide accessors if needed.(ŸÔ±
+|"squid:ClassVariableVisibilityCheck"PMake from a static final constant or non-public and provide accessors if needed.(ìÁèˆ
+}"squid:ClassVariableVisibilityCheck"QMake value a static final constant or non-public and provide accessors if needed.(ŸÔ±
+usquid:CallToDeprecatedMethod"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(«½ŒÑÿÿÿÿÿ
+usquid:CallToDeprecatedMethod"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(øƒ“øÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÔ›–
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÔ›–
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹İ¯Áûÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹İ¯Áûÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹İ¯Áûÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çåç
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şœÅüÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şœÅüÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êƒµº
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êƒµº
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¢äÜ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¢äÜ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¢äÜ

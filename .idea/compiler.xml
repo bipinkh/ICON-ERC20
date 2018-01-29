@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="iconerc20" target="1.5" />
+      <module name="iconerc20" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
