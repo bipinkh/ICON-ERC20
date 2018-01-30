@@ -1,7 +1,9 @@
 package contractUtils;
 
 import contract.TokenERC20;
+import org.web3j.crypto.CipherException;
 import org.web3j.crypto.Credentials;
+import org.web3j.crypto.WalletUtils;
 import org.web3j.protocol.Web3j;
 import org.web3j.protocol.http.HttpService;
 
@@ -15,7 +17,7 @@ public class ContractLoader {
 
     static TokenERC20 erc20 = null;
 
-    public static TokenERC20 getContrac(){
+    public static TokenERC20 getContract() throws IOException, CipherException {
         if (erc20 == null) loadERC20();
         return erc20;
     }
@@ -23,14 +25,15 @@ public class ContractLoader {
     /**
      * loader for erc 20 token contract
      * */
-    public  static void loadERC20(){
+    public  static void loadERC20() throws IOException, CipherException {
 
         System.out.println("Loading contract: ERC20");
         // Get or create Web3j instance
         Web3j web3j = Web3j.build(new HttpService(NodeConstants.WEB3_URL));
 
         // Get the node credentials
-        Credentials NODE = Credentials.create(NodeConstants.PRIVATE_KEY);
+        Credentials NODE = WalletUtils.loadCredentials(NodeConstants.WalletFilePassword,
+                NodeConstants.WalletFilePath);
 
         try {
             // load contract
