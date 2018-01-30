@@ -18,8 +18,11 @@ public class NodeConstants {
     public static final BigDecimal divideFactor = BigDecimal.valueOf(Math.pow(10, 18));
 
     public static final String WalletFile = "UTC--2018-01-29T05-32-44.393Z--7507d5ccddb8b987638b27fd57ab862cc8fae116";
-    public static final String WalletFilePath = "icon/"+WalletFile;
+    public static final String WalletFilePath = "icon/firstwallet/"+WalletFile;
     public static final String WalletFilePassword = "i got this from sandip pandey";
+
+    public static final String FirstWalletAddress = "0x7507d5ccDDB8B987638b27fd57Ab862cC8Fae116";
+    public static final String SecondWalletAddress = "0xe7C960044b47B2804b2A230F324de2C8a079f4Bc";
 }
 
 
